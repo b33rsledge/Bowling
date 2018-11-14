@@ -62,7 +62,7 @@ public class BowlingFrameTest {
 
 	@Test(expected = Exception.class)
 	public void testInvalidNumberOfPinsMoreThanTen() throws Exception {
-		frame.rollFirst(11);
+		frame.rollFirst(8);
 	}
 	
 	@Test(expected = Exception.class) 
